@@ -164,7 +164,7 @@ namespace applicant_api.Model.Logic
         }
         public Uri GenerateApplicationURL(Guid guid)
         {
-            string url = String.Format("{0}/{1}", Constants.targetLocalHttp, guid);
+            string url = String.Format("{0}/Home/{1}", Constants.targetLocalHttp, guid);
             return new Uri(url);
         }
 
