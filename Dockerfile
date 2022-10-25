@@ -1,6 +1,6 @@
 FROM node:16.17.0
 
-RUN npm install -g http-server
+RUN npm install --production=false -g http-server
 
 RUN mkdir /app
 

@@ -22,7 +22,7 @@
     </ui-top-app-bar>
     <ui-drawer nav-id="nav-menu" type="modal">
         <ui-drawer-header>
-            <ui-drawer-title>Header here</ui-drawer-title>
+            <ui-drawer-title>Sample</ui-drawer-title>
         </ui-drawer-header>
         <ui-drawer-content>
             <ui-list>
